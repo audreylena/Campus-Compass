@@ -144,7 +144,7 @@ export default function AssistantPage() {
           </div>
         )}
 
-        {/* Suggestions — only show when no conversation yet */}
+        {/* Suggestions */}
         {messages.length === 1 && (
           <div className="space-y-2">
             <div className="flex items-center gap-2 px-1">
